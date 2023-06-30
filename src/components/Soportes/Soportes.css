@@ -1,0 +1,61 @@
+.soporte {
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 450px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .remoto {
+    background-color: rgba(135, 206, 250, 0.24);
+  }
+  
+  .local {
+    background-color: rgba(152, 251, 152, 0.24);
+  }
+  
+  .presencial {
+    background-color: rgba(240, 227, 48, 0.295);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    font-size: 40px;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
